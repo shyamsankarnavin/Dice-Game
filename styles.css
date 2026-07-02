@@ -50,6 +50,8 @@ footer {
 }
 
 .roll-btn {
+  display: block;
+  margin: 0 auto 30px auto;
   background-color: #4ECCA3;
   color: #393E46;
   font-family: 'Geist Pixel', sans-serif;
@@ -66,5 +68,4 @@ footer {
 .roll-btn:hover {
   background-color: #3b9b7a;
   transform: scale(1.05);
-}
 }
