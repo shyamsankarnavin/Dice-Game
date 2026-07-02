@@ -49,3 +49,22 @@ footer {
 
 }
 
+.roll-btn {
+  background-color: #4ECCA3;
+  color: #393E46;
+  font-family: 'Geist Pixel', sans-serif;
+  font-size: 2rem;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: 0.2s;
+  align-self: auto;
+}
+
+.roll-btn:hover {
+  background-color: #3b9b7a;
+  transform: scale(1.05);
+}
+}
