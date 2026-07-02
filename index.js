@@ -1,8 +1,9 @@
-if (performance.getEntriesByType("navigation")[0].type === "reload") {
+
 
 const image1 = document.querySelector(".img1");
 const image2 = document.querySelector(".img2");
 
+function rollDice() { //Refresh button to start the game
 // Player 1
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImage1 = "dice" + randomNumber1 + ".png";
